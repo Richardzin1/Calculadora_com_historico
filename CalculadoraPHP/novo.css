@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ label{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width: 200px;
+}
+
+.operacao{
+    margin-left: 300px;
+    margin-top: -40px;
+    width: 50px;
+}
+
+button{
+    margin-top: 80px;
+}
+
+.lista{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.conteiner1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 500px;
+   border: solid 2px black;
+   margin-top: 50px;
+   background-color: blanchedalmond;
+   color: black;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    
+}

@@ -1,0 +1,16 @@
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para as bordas das células */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculo em php</title>
+    <link rel="stylesheet" href="novo.css">
+</head>
+<body>
+    <div class="conteiner1">
+<form class="conteiner2" action="gravar.php" method="post">
+    <h1>Calculadora com historico</h1>    
+    <label for="num1">Number1
+        <input name="num1" type="number" >
+    </label>
+    <label for="num2">Number2
+        <input name="num2" type="number" >
+    </label>
+   
+    <label class="operacao" for="operacao">
+        <select  name="operacao" id="operacao">
+            <option name="somar" value="somar">+</option>
+            <option name="subtrair" value="subtrair">-</option>
+            <option name="multiplicar" value="multiplicar">*</option>
+            <option name="dividir" value="dividir">/</option>
+        </select>
+    </label>
+
+    <button>Enviar</button>
+    <a class="lista" href="listar.php">listas</a>
+</form>
+</div>
+
+
+
+    
+</body>
+</html>
